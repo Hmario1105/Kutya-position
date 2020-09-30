@@ -59,6 +59,24 @@ nav a:hover {
     background:lightblue;
 }
 
-.rclick, .lclick {
-    color: red;
-}
+.left-link,
+        .right-link {
+            position: fixed;
+            top: 43vh;
+            font-size: 5em;
+            border: 3px solid black;
+        }
+
+        .left-link a,
+        .right-link a {
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        .left-link {
+            left: 0;
+        }
+
+        .right-link {
+            right: 0
+        }
