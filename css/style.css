@@ -25,6 +25,11 @@ main {
     padding: 40px;
 }
 
+img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
 .content {
     background-color: lightgreen;
 }
@@ -59,16 +64,14 @@ nav a:hover {
     background:lightblue;
 }
 
-.left-link,
-        .right-link {
+.left-link,.right-link {
             position: fixed;
-            top: 43vh;
+            top: 45vh;
             font-size: 5em;
-            border: 3px solid black;
+            border: 5px solid darkblue;
         }
 
-        .left-link a,
-        .right-link a {
+        .left-link a,.right-link a {
             text-decoration: none;
             padding: 20px;
         }
